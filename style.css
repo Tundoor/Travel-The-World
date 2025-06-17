@@ -1,0 +1,46 @@
+:root {
+  --body-color-light: #fefff2; 
+  --nav-link-color: #fefff2;
+  --nav-bar-color: #213448;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-color-light);
+}
+
+.nav-div {
+    height: 10vh;
+    background-color: var(--nav-bar-color);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.navLink a{
+    color: var(--nav-link-color);
+    font-size: 1.5rem; 
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none; 
+}
+
+.main-image {
+    width: 100px;
+    height: 100px;
+}
