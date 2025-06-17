@@ -17,8 +17,10 @@ html, body {
     background-color: var(--body-color-light);
 }
 
+/*Nav Sect */
+
 .nav-div {
-    height: 10vh;
+    height: 100px;
     background-color: var(--nav-bar-color);
      display: flex;
     justify-content: center;
@@ -40,7 +42,26 @@ html, body {
     text-decoration: none; 
 }
 
-.main-image {
-    width: 100px;
-    height: 100px;
+/* Home Sect */
+
+.home {
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./ocean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size: 7rem;
+    color: var(--nav-link-color);
+}
+
+.home p {
+    color: var(--nav-link-color);
 }
