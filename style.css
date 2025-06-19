@@ -120,9 +120,43 @@ html, body {
     font-size: 2rem;
 }
 
-footer {
-    background-color: var(--nav-bar-color);
+.b4-footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #213448;
+}
+
+.latest-post-list, .social-links-list {
+    list-style-type: none;
+    
+}
+
+.latest-post-list li {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.latest-post-div h1 {
+    font-size: 3rem;
+    color: #7ab9fd;
+}
+.latest-post-list a {
+    text-decoration: none;
     color: white;
+}
+
+.socials-div h1 {
+color: #7ab9fd;
+}
+.socials-div p {
+    color: white;
+}
+footer {
+    background-color: #7ab9fd;
+    color:  var(--nav-bar-color);
     display: flex;
     justify-content: center;
     padding: 50px;
