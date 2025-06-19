@@ -133,6 +133,10 @@ html, body {
     
 }
 
+.social-links-list{
+    display: flex;
+}
+
 .latest-post-list li {
     margin-top: 20px;
     font-size: 1.5rem;
