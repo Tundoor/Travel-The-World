@@ -112,12 +112,27 @@ html, body {
 
 .intro-paragraph-div p {
     margin-bottom: 30px;
+    color: grey;
 }
 
 .intro-paragraph-div h2 {
     color: var(--nav-bar-color);
     font-size: 2rem;
 }
+
+footer {
+    background-color: var(--nav-bar-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+footer a {
+    color:aliceblue;
+}
+
 
 a:hover {
     color: #7bb9fc;
